@@ -1972,9 +1972,17 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
 
 
 /* ESCUSA overrides */
-#pageNumberLabel,
-#openFile,
-#download,
-#viewBookmark {
+#outerContainer #pageNumberLabel,
+#outerContainer #openFile,
+#outerContainer #download,
+#outerContainer #presentationMode,
+#outerContainer #secondaryToolbarToggle,
+#outerContainer #viewBookmark {
   display: none;
+}
+
+@media all and (max-width: 510px) {
+  html[dir='ltr'] .innerCenter {
+    right: -100%;
+  }
 }
