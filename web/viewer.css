@@ -624,7 +624,7 @@ html[dir='rtl'] .secondaryToolbar {
 }
 .doorHanger:after,
 .doorHangerRight:after {
-  border-bottom-color: hsla(0,0%,32%,.99);
+  border-bottom-color: white;
   border-width: 8px;
 }
 .doorHanger:before,
