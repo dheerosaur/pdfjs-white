@@ -2110,6 +2110,10 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
 
 
 /* ESCUSA overrides */
+#toolbarContainer {
+  border-top: 1px solid #ccc;
+}
+
 #outerContainer #pageNumberLabel,
 #outerContainer #openFile,
 #outerContainer #download,
