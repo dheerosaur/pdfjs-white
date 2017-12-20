@@ -215,7 +215,7 @@ html {
 
 body {
   height: 100%;
-  background-color: #F2F2F2;
+  background-color: #fcfcfc;
 }
 
 body,
@@ -1171,10 +1171,12 @@ html[dir="rtl"] .secondaryToolbarButton > span {
   content: url(images/secondaryToolbarButton-lastPage.png);
 }
 
+.toolbarButton.rotateCcw::before,
 .secondaryToolbarButton.rotateCcw::before {
   content: url(images/secondaryToolbarButton-rotateCcw.png);
 }
 
+.toolbarButton.rotateCw::before,
 .secondaryToolbarButton.rotateCw::before {
   content: url(images/secondaryToolbarButton-rotateCw.png);
 }
