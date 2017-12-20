@@ -1783,6 +1783,14 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
     left: 186px;
   }
 
+  .toolbarButton.rotateCw::before,
+  .toolbarButton.rotateCcw::before {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    top: 3px;
+    right: 2px;
+  }
+
   .toolbarField.pageNumber.visiblePageIsLoading,
   #findInput[data-status="pending"] {
     background-image: url(images/loading-small@2x.png);
