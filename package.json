@@ -1,0 +1,11 @@
+{
+  "name": "pdfjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dheerosaur/pdfjs-white.git",
+  "author": "Dheeraj Sayala <dheerosaur@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "uglify-js": "^3.3.21"
+  }
+}
