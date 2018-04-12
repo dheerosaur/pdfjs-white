@@ -6494,6 +6494,18 @@ var PDFViewerApplication = {
       }
     }
 
+    // Get httpHeaders from the queryString
+    parameters.httpHeaders = {};
+    var queryString = document.location.search.substring(1);
+    var params = parseQueryString(queryString);
+
+    for (var key in params) {
+      if (key.indexOf('header-') === 0) {
+        var headerName = key.replace('header-', '');
+        parameters.httpHeaders[headerName] = params[key];
+      }
+    }
+
     var self = this;
     self.downloadComplete = false;
 
