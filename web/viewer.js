@@ -6500,8 +6500,8 @@ var PDFViewerApplication = {
     var params = parseQueryString(queryString);
 
     for (var key in params) {
-      if (key.indexOf('header-') === 0) {
-        var headerName = key.replace('header-', '');
+      if (key.indexOf('header_') === 0) {
+        var headerName = key.replace('header_', '');
         parameters.httpHeaders[headerName] = params[key];
       }
     }
